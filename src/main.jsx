@@ -9,6 +9,7 @@ import FAQS from './components/FAQS.jsx'
 import Footer from './components/Footer.jsx'
 import Navbar from './components/Navbar.jsx'
 import ContactForm from './components/ContactUs.jsx'
+import Mission from './components/Mission.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
     <PricingSection/>
     <FAQS/>
     <ContactForm/>
+    <Mission/>
     <Footer/>
     
    

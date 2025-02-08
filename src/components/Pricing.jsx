@@ -7,6 +7,7 @@ import styled from "styled-components";
 const Section = styled.section`
   padding: 80px 0;
   background-color: white;
+  overflow: hidden;
 `;
 
 const Info = styled.div`
@@ -39,7 +40,9 @@ const Title = styled.h2`
   font-weight: bold;
   text-align: center;
   margin-bottom: 16px;
-  color: #f97316; /* Orange color */
+  color: transparent;
+  background: linear-gradient(to bottom right, #6a4cfc, #4b3d88);
+  -webkit-background-clip: text;Orange color */
 `;
 
 const Subtitle = styled.p`
@@ -140,7 +143,7 @@ const CheckIcon = styled(Check)`
 
 const Button = styled.button`
   width: 100%;
-  background-color: #f97316;
+  background: linear-gradient(to bottom right, #6a4cfc, #4b3d88); /* Gradient for background */
   color: white;
   padding: 12px;
   border-radius: 8px;

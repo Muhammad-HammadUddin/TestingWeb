@@ -8,6 +8,8 @@ const NavbarContainer = styled.nav`
   background-color: white;
   border-bottom: 1px solid #e5e7eb;
   z-index: 1000;
+  min-width:100vw;
+  max-width: 100vw;
   @media (prefers-color-scheme: dark) {
     background-color: #1f2937;
     border-color: #4b5563;

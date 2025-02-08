@@ -47,7 +47,10 @@ const Title = styled.h2`
   font-weight: bold;
   text-align: center;
   margin-bottom: 3rem;
-  color: #ff7f32;
+  background: linear-gradient(to bottom right, #6a4cfc, #4b3d88);
+  -webkit-background-clip: text; 
+  color: transparent;
+  /* Gradient for background */
   @media (min-width: 792px) {
     font-size: 2.5rem;
   }
@@ -161,15 +164,27 @@ const ButtonWrapper = styled.div`
 `
 
 const Button = styled.button`
-  background-color: #ff7f32;
-  color: white;
+  /* Background gradient for the button */
+  background: linear-gradient(to bottom right, #6a4cfc, #4b3d88); /* Gradient for background */
+  
+  /* Make text white */
+  color: white; /* Set text color to white */
+  
   padding: 0.5rem 1rem;
   border-radius: 99px;
   font-weight: bold;
+  border: none; /* Remove border if not needed */
+  text-transform: uppercase; /* Optional, for better readability */
+  
+  /* Optional hover effect for background */
   &:hover {
+    background: linear-gradient(to bottom right, #4b3d88, #6a4cfc); /* Slightly different gradient on hover */
     cursor: pointer;
   }
-`
+`;
+
+
+
 
 export default function OurServices() {
   return (

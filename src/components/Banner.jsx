@@ -19,6 +19,8 @@ const BannerContainer = styled.div`
   height: 100vh;
   overflow: hidden;
   z-index: 0;
+  min-width:100vw;
+  max-width: 100vw;
 `;
 
 // Styled Components for each banner text

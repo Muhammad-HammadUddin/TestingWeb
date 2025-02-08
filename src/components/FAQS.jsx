@@ -20,7 +20,9 @@ const Title = styled.h2`
   font-weight: 700;
   text-align: center;
   margin-bottom: 24px;
-  color: #1f2937;
+  color: transparent;
+  background: linear-gradient(to bottom right, #6a4cfc, #4b3d88);
+  -webkit-background-clip: text;
 `;
 
 const FAQItem = styled(motion.div)`

@@ -84,9 +84,13 @@ const Textarea = styled.textarea`
     border-color: #6a4cfc;
   }
 `
-
+// const Send=styled.button`
+// `
 const Button = styled.button`
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(to right, #6a4cfc, #4b3d88);
   color: white;
   font-weight: 600;
@@ -204,7 +208,7 @@ export default function ContactForm() {
                 "Sending..."
               ) : (
                 <>
-                  <Send className="w-5 h-5 mr-2" />
+                  <Send  />
                   Send Message
                 </>
               )}
